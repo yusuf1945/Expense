@@ -1,4 +1,3 @@
-const { flatten } = require('mongoose');
 const { calculateBalances, simplifyDebts } = require('../src/utils/balanceUtils');
 const assert = require('assert');
 

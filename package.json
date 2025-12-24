@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/run_all_tests.js",
+    "test:logic": "node scripts/test_logic.js",
+    "test:api": "node scripts/verify_api.js",
+    "test:api:advanced": "node scripts/verify.js",
+    "test:all": "node scripts/run_all_tests.js"
   },
   "keywords": [],
   "author": "",
