@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node src/app.js",
     "build": "echo 'No build step required'",
+    "check:env": "node scripts/check_env.js",
     "test": "node scripts/run_all_tests.js",
     "test:logic": "node scripts/test_logic.js",
     "test:api": "node scripts/verify_api.js",
