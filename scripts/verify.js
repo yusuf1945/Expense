@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = process.env.API_URL || 'http://localhost:3000/api';
 
 const run = async () => {
     try {
